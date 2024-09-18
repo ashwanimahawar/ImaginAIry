@@ -1,0 +1,16 @@
+#Ignore all the env Files
+**/.env
+server/.env
+
+#Node Modules
+client/node_modules
+server/node_modules
+
+#json files
+client/*.json
+server/*.json
+
+#some files
+index.html
+NAV.html
+page.html
