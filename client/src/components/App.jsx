@@ -27,7 +27,7 @@ export default function App() {
             <Route path="/about" element={<AboutUs />} exact/>
             <Route path="/contact" element={<ContactUs />} exact/>
         </Routes>
-        {path === "" | path === "about" | path === "contact" && <FeaturesSection />}
+        {(path === "" || path === "about" || path === "contact") && <FeaturesSection />}
         {path === "" && <SampleImages />}
         <Footer />
         
