@@ -60,7 +60,7 @@ export default function Header() {
                 <div className="flex items-center">
                     <div className="flex-shrink-0 mr-12">
                         {/* <img className="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow" /> */}
-                        <h1><span className="text-white text-3xl font-bold mr-1">Imagin</span><span className ="text-red-600 text-3xl font-bold">AI</span><span className="text-white text-3xl font-bold">ry</span></h1>
+                        <a href="/"><h1><span className="text-white text-3xl font-bold mr-1">Imagin</span><span className ="text-red-600 text-3xl font-bold">AI</span><span className="text-white text-3xl font-bold">ry</span></h1></a>
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 nav-items flex items-baseline space-x-4">

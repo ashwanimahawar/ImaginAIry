@@ -11,3 +11,4 @@ server/dist
 client/dist
 client/build
 
+server/yarn.lock
