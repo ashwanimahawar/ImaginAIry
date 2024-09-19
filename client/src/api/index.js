@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:5000/api";
+const baseURL = "https://imaginairy.site/api" && "http://localhost:5000/api" ;
 
 export const GetPosts = async () => await axios.get( baseURL + "/post/");
 export const CreateNewPost = async (data) => await axios.post(baseURL + "/post/", data);
