@@ -6,7 +6,8 @@ server/.env
 client/node_modules
 server/node_modules
 
-#some files
-index.html
-NAV.html
-page.html
+server/build
+server/dist
+client/dist
+client/build
+
