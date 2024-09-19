@@ -27,7 +27,7 @@ export default function SampleImages() {
 
     useEffect(() => {
         getPosts();
-    }, [null]);
+    });
 
     //Search Functionality
     useEffect(() => {
