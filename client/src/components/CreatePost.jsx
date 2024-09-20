@@ -55,7 +55,7 @@ export default function CreatePost() {
             <div id="generate-form" className="pt-[60px] w-[45%] gap-5">
 
                 <form className="flex flex-col" action="">
-                    <label for="author-name" className="inter block text-[15px] pl-2 font-light">AUTHOR</label>
+                    <label className="inter block text-[15px] pl-2 font-light">AUTHOR</label>
                     <input id="author-name" 
                     value={post.author}
                     onChange={(e) => setPost({ ...post, author: e.target.value })}
@@ -63,7 +63,7 @@ export default function CreatePost() {
                     className="rounded-lg bg-transparent flex-1 mt-2 text-white px-4 py-3 roboto focus:outline-none border-[0.5px] border-slate-700" 
                     placeholder="Enter your name" /> <br />
 
-                    <label for="prompt" className="inter block text-[15px] pl-2 font-light">IMAGE PROMPT</label>
+                    <label className="inter block text-[15px] pl-2 font-light">IMAGE PROMPT</label>
                     <textarea id="prompt" 
                     value={post.prompt}
                     onChange={(e) => setPost({ ...post, prompt: e.target.value })}

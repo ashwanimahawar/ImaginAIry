@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const baseURL = "https://imaginairy-cowi.onrender.com/api" || "http://localhost:5000/api";
+const baseURL = window.location.hostname === "localhost" 
+? "http://localhost:5000/api" 
+: "https://imaginairy-cowi.onrender.com/api";
+
 
 export const GetPosts = async () => await axios.get( baseURL + "/post/");
 export const CreateNewPost = async (data) => await axios.post(baseURL + "/post/", data);

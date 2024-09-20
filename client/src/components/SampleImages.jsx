@@ -27,7 +27,8 @@ export default function SampleImages() {
 
     useEffect(() => {
         getPosts();
-    });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     //Search Functionality
     useEffect(() => {
