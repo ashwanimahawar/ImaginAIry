@@ -52,7 +52,7 @@ export default function SampleImages() {
         <section className="bg-white w-full pb-[50px]">
 
             <div>
-                <h1 id="sample-heading" className=" pixel tracking-wide text-center pt-[50px] font-extrabold text-6xl text-slate-950">Check Out Some Generated Images</h1>
+                <h1 id="sample-heading" className=" inter tracking-wide text-center pt-[50px] font-extrabold text-5xl text-slate-950">Check Out Some Generated Images</h1>
                 <p id="sample-heading2" className="roboto text-black text-center py-2 mb-12 text-xl">Below are some AI-Generated Images along with their prompts.</p>
             </div>
 
