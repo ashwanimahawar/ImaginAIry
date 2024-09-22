@@ -15,8 +15,8 @@ export default function Footer() {
                 <ul id="footer-menu" className="flex gap-10 mr-[100px]">
                    <li className="hover:text-red-500"><button onClick={() => navigate("/")}>Home</button></li>
                    <li className="hover:text-red-500"><button onClick={() => navigate("/explore")}>Posts</button></li>
-                   <li className="hover:text-red-500"><button onClick={() => navigate("/contact")}>Contact</button></li>
                    <li className="hover:text-red-500"><button onClick={() => navigate("/about")}>About</button></li>
+                   <li className="hover:text-red-500"><button onClick={() => navigate("/contact")}>Contact</button></li>
                 </ul>
             </div>
         </footer>

@@ -147,7 +147,7 @@ body{
     }
 
     #hero-section{
-        padding: 50px 15px;
+        padding: 30px 3px;
         width: 100%;
     }
 
@@ -155,7 +155,7 @@ body{
         font-size: 12px;
         padding: 0px 2px;
         margin-top: 15px;
-        line-height: 16px;
+        line-height: 13px;
     }
 
     #hero-desc2{
@@ -170,7 +170,7 @@ body{
     }
     #hero-box{
         padding: 20px 20px;
-        width: 100%;
+        width: 98%;
         margin: 20px auto;
         margin-top: 40px;
     }
@@ -180,7 +180,65 @@ body{
     }
 
     #generate-form{
-        padding: 10px 0px;
+        padding: 10px 3px;
+    }
+    #create-title{
+        padding: 0px 5px;
+        line-height: 10px;
+    }
+
+    #para{
+        padding: 0px 20px;
+    }
+    #questions{
+        padding-left: 35px;
+        padding-right: 20px;
+    }
+
+    #AC-container{
+        width: 95%;
+    }
+
+    #feat{
+        width: 95%;
+    }
+    #logo{
+        font-size: 25px;
+    }
+
+    #para-contact{
+        padding: 0px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #para-contact-div{
+        width: 100%;
+    }
+    #email-btn{
+        padding: 5px 40px;
+    }
+
+}
+
+@media all and (max-width: 769px) and (min-width: 481px) {
+    #para-contact{
+        padding: 0px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #para-contact-div{
+        width: 100%;
+    }
+    #email-btn{
+        padding: 5px 40px;
+    }
+
+    #para{
+        padding: 0px 20px;
+    }
+    #questions{
+        padding-left: 35px;
+        padding-right: 20px;
     }
 }
 
@@ -196,7 +254,7 @@ body{
     }
 
     #feat{
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -245,12 +303,15 @@ body{
 }
 
 @media all and (max-width: 767px) {
-    #hero-section{
-        padding: 80px 0px;
-    }
 
     #head-btn{
         margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 480px){
+    #hero-section{
+        padding: 80px 3px;
     }
 }
 
@@ -304,7 +365,7 @@ body{
     }
 
     #generate-form{
-        width: 100%;
+        width: 97%;
     }
 
     #generate-cont{

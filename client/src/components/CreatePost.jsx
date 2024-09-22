@@ -47,7 +47,7 @@ export default function CreatePost() {
     return(
         <section className="min-h-[800px] w-full text-white py-10">
             
-            <Title text="Generate Image using Prompt!"/>
+            <div id="create-title"><Title text="Generate Image using Prompt!"/></div>
             <p id="generate-para" className="inter text-center my-5 text-red-600 tracking-widest">Generate Images with AI using prompts and post to share it with the community</p>
 
             <div id="generate-cont" className="flex mt-10 justify-center gap-[50px] w-[80%] min-h-[600px] mx-auto">
