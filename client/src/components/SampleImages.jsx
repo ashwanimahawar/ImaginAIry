@@ -78,21 +78,6 @@ export default function SampleImages() {
                     </div>
                 )}
             </div>)}
-
-            {/* <div className="w-[1080px] mx-auto grid grid-cols-2 h-[700px]">
-                <div className="w-[540px] h-[350px] bg-black border-2 border-black hover:border-white">
-                    <img className="" src="https://img-cdn.pixlr.com/image-generator/history/65772796905f29530816ea40/4ca9ba3d-c418-4153-a36a-77f4182236a7/medium.webp" alt="AI-Images-Examples" />
-                </div>
-                <div className="w-[540px] h-[350px] hover:bg-gray-200 border-2 border-white">
-                    <img className="" src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" alt="AI-Images-Examples" />
-                </div>
-                <div className="w-[540px] h-[350px] hover:bg-gray-200 border-2 border-white">
-                    <img className="" src="https://img-cdn.pixlr.com/image-generator/history/6565c8dff9ef18d69df3e3a2/fe1887b5-015e-4421-8c6a-1364d2f5b1e9/medium.webp" alt="AI-Images-Examples" />
-                </div>
-                <div className="w-[540px] h-[350px] bg-black border-2 border-black hover:border-white">
-                    <img className="" src="https://img-cdn.pixlr.com/image-generator/history/65ba5701b4f4f4419f746bc3/806ecb58-167c-4d20-b658-a6a6b2f221e9/medium.webp" alt="AI-Images-Examples" />
-                </div>
-            </div> */}
         </section>
     );
 }

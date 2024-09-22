@@ -217,7 +217,6 @@ body{
     #email-btn{
         padding: 5px 40px;
     }
-
 }
 
 @media all and (max-width: 769px) and (min-width: 481px) {
@@ -239,6 +238,20 @@ body{
     #questions{
         padding-left: 35px;
         padding-right: 20px;
+    }
+}
+
+@media all and (max-width: 769px) and (min-width: 200px) {
+    #card{
+
+        &&:hover{
+            transform: scale(1);
+            background-color: rgb(229 231 235);
+        }
+    }
+
+    #down-btn{
+        opacity: 100;
     }
 }
 
