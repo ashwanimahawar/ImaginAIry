@@ -152,16 +152,21 @@ body{
     }
 
     #hero-desc{
+        display: none;
+    }
+
+    #hero-desc-mobile{
+        display: block;
         font-size: 12px;
         padding: 0px 2px;
-        margin-top: 15px;
-        line-height: 13px;
+        margin-top: 30px;
+        line-height: 15px;
     }
 
     #hero-desc2{
         font-size: 18px;
         padding: 0px;
-        line-height: 27px;
+        line-height: 25px;
         margin-top: 15px;
     }
 

@@ -56,6 +56,7 @@ export default function HeroSection() {
             <span className="mr-3">Try Now</span><ArrowOutwardRoundedIcon />
           </button>
         </div>
+        <p id="hero-desc-mobile" className="hidden roboto text-sm text-gray-500 px-10">The AI Image Generator is a powerful and intuitive tool that allows users to create stunning images through simple text prompts. Users can input a description, and the AI instantly generates a high-quality image based on their input. Once satisfied with the result, users can easily create a post showcasing the generated image, along with the original text prompt that inspired it. The tool has a field for author in which user can enter their name, allowing them to share their creativity with the community. Posts can be viewed, downloaded, and further inspire other creators, fostering a vibrant and interactive platform for artistic exploration.</p>
         <div id="hero-box" className="transition-colors w-full mx-auto bg-transparent border-[1px] border-slate-500 hover:border-white transition-all rounded-lg py-5 px-8">
           <h2 className="text-white text-left inter font-bold text-xl" >Follow these easy steps:</h2>
           <ul className="roboto pt-3 text-md text-gray-500 text-left" >
