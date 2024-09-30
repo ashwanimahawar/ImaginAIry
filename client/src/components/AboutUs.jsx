@@ -6,7 +6,7 @@ export default function AboutUs() {
         <section className="min-h-[800px] w-full text-white py-10 pb-20">
             <Title text="About Us - ImaginAIry"></Title>
             {/* <p id="generate-para" className="inter text-center my-5 text-red-600 tracking-widest">Image Generator Tool!</p> */}
-            <div id="AC-container" className=" border rounded-lg border-zinc-500 mt-8 text-left inter w-[80%] mx-auto py-10">
+            <div id="AC-container" className=" border rounded-lg border-zinc-500 mt-8 text-left inter w-[70%] mx-auto py-10">
                 <p id="para" className=" px-20 text-lg">
                 Welcome to ImaginAIry, where innovation and creativity blend seamlessly with the power of artificial intelligence. Our platform is designed for creators, artists, and enthusiasts who seek to transform their ideas into captivating visual art. At ImaginAIry, we believe that everyone has a unique vision, and through our AI-powered tool, you can now bring that vision to life—whether you're a seasoned artist or someone just exploring creative possibilities. Share your creations with the world, explore the creative works of others, and download your favorite images—all in one place. Our goal is to make AI-driven art accessible, fun, and collaborative for everyone.
                 </p> <br />

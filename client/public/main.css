@@ -101,7 +101,7 @@ body{
     }
 }
 
-@media all and (max-width: 480px) and (min-width: 200px) {
+@media all and (max-width: 480px) and (min-width: 100px) {
     #posts-cont{
         grid-template-columns: repeat(1, 1fr);
         width: 95%;
@@ -222,6 +222,11 @@ body{
     #email-btn{
         padding: 5px 40px;
     }
+
+    #paralist{
+        padding: 0px;
+        margin: 0px 25px;
+    }
 }
 
 @media all and (max-width: 769px) and (min-width: 481px) {
@@ -240,6 +245,10 @@ body{
     #para{
         padding: 0px 20px;
     }
+    #paralist{
+        padding: 0;
+        margin: 0px 25px;
+    }
     #questions{
         padding-left: 35px;
         padding-right: 20px;
@@ -253,6 +262,10 @@ body{
             transform: scale(1);
             background-color: rgb(229 231 235);
         }
+    }
+
+    #AC-container{
+        width: 80%;
     }
 
     #down-btn{
@@ -303,7 +316,7 @@ body{
     }
 }
 
-@media all and (max-width: 619px) and (min-width: 391px) {
+@media all and (max-width: 619px) and (min-width: 481px) {
     #posts-cont{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
