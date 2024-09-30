@@ -264,14 +264,18 @@ body{
         }
     }
 
-    #AC-container{
-        width: 80%;
-    }
-
     #down-btn{
         opacity: 100;
     }
 }
+
+@media all and (max-width: 769px) and (min-width: 481px) {
+
+    #AC-container{
+        width: 80%;
+    }
+}
+
 
 @media all and (max-width: 1224px) and (min-width: 481px){
     #hero-section{
