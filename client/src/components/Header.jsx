@@ -94,18 +94,6 @@ export default function Header() {
                 >
                   Contact
                 </button>
-                <button
-                  onClick={() => navigate("/privacy")}
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-1.5 rounded-md text-md font-medium"
-                >
-                  Privacy
-                </button>
-                <button
-                  onClick={() => navigate("/terms")}
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-1.5 rounded-md text-md font-medium"
-                >
-                  Terms
-                </button>
               </div>
             </div>
           </div>
@@ -206,18 +194,6 @@ export default function Header() {
             >
               Contact Us
             </a>
-            <a
-              href="/privacy"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="/terms"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Terms and Conditions
-            </a> 
           </div>
         </div>
       )}

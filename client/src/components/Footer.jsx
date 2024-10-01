@@ -49,6 +49,7 @@ export default function Footer() {
           <Heading text="Quick Links" colour="rgb(20 83 45)" />
           <Item text="Terms and Conditions" link="terms" />
           <Item text="Privacy Policy" link="privacy" />
+          <Item text="Cookies Preferences" link="cookies-preferences" />
           <Item text="About Us" link="about" />
           <Item text="Contact Us" link="contact" />
         </div>

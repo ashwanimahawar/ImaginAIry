@@ -1,6 +1,7 @@
 #Ignore all the env Files
 **/.env
 server/.env
+client/.env
 
 #Node Modules
 client/node_modules

@@ -2,7 +2,7 @@ import axios from "axios";
 
 const baseURL = window.location.hostname === "localhost" 
 ? "http://localhost:5000/api" 
-: "https://imaginairy-cowi.onrender.com/api";
+: process.env.REACT_APP_SERVER_URL;
 
 
 export const GetPosts = async () => await axios.get( baseURL + "/post/");
