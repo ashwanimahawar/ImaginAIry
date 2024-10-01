@@ -101,7 +101,7 @@ body{
     }
 }
 
-@media all and (max-width: 480px) and (min-width: 100px) {
+@media all and (max-width: 500px) and (min-width: 100px) {
     #posts-cont{
         grid-template-columns: repeat(1, 1fr);
         width: 95%;
@@ -122,20 +122,6 @@ body{
         line-height: 22px;
         margin-bottom: 20px;
         padding: auto 10px;
-    }
-
-    #footer{
-        flex-direction: column;
-        gap: 0px;
-    }
-
-    #footer-text, #footer-menu{
-        margin: 0;
-        padding: 15px 8px;
-    }
-
-    #footer-text{
-        border-bottom: 0.5px solid white;
     }
 
     #hero-title{
@@ -195,6 +181,12 @@ body{
     #para{
         padding: 0px 20px;
     }
+
+    .h{
+        margin: 10px 0px;
+        margin-top: 13px;
+    }
+
     #questions{
         padding-left: 35px;
         padding-right: 20px;
@@ -209,6 +201,10 @@ body{
     }
     #logo{
         font-size: 25px;
+    }
+
+    #lt{
+        margin-right: 8px;
     }
 
     #para-contact{
@@ -229,7 +225,24 @@ body{
     }
 }
 
-@media all and (max-width: 769px) and (min-width: 481px) {
+@media all and (max-width: 1070px) and (min-width: 768px) {
+    #nav-head{
+        margin-left: -10px;
+        gap: 1px;
+    }
+}
+
+@media all and (min-width: 830px){
+    #head-nav-items{
+        display: block;
+    }
+
+    #menu-toggle{
+        display: none;
+    }
+}
+
+@media all and (max-width: 769px) and (min-width: 501px) {
     #para-contact{
         padding: 0px 20px;
         flex-direction: column;
@@ -245,6 +258,12 @@ body{
     #para{
         padding: 0px 20px;
     }
+
+    .h{
+        margin: 10px 0px;
+        margin-top: 13px;
+    }
+
     #paralist{
         padding: 0px;
         margin: 0px 25px;
@@ -269,7 +288,7 @@ body{
     }
 }
 
-@media all and (max-width: 769px) and (min-width: 481px) {
+@media all and (max-width: 769px) and (min-width: 501px) {
 
     #AC-container{
         width: 80%;
@@ -277,7 +296,7 @@ body{
 }
 
 
-@media all and (max-width: 1224px) and (min-width: 481px){
+@media all and (max-width: 1224px) and (min-width: 501px){
     #hero-section{
         width: 90%;
         padding-bottom: 100px;
@@ -293,20 +312,222 @@ body{
     }
 }
 
-@media all and (max-width: 815px) {
-    #footer{
-        flex-direction: column;
-        gap: 5px;
+@media all and (max-width: 1700px) and (min-width: 1551px) {
+    #footer-item1{
+        width: 27%;
+    }
+    #footer-item2{
+        width: 11%;
+    }
+    #footer-item3{
+        width: 9%;
+    }
+    #footer-item4{
+        width: 18%;
+    }
+}
+
+@media all and (max-width: 1550px) and (min-width: 1351px) {
+    #footer-item1{
+        width: 27%;
+    }
+    #footer-item2{
+        width: 12%;
+    }
+    #footer-item3{
+        width: 10%;
+    }
+    #footer-item4{
+        width: 18%;
+    }
+}
+
+@media all and (max-width: 1350px) and (min-width: 1081px) {
+    #footer-item1{
+        width: 28%;
+    }
+    #footer-item2{
+        width: 15%;
+    }
+    #footer-item3{
+        width: 12%;
+    }
+    #footer-item4{
+        width: 22%;
+    }
+}
+
+@media all and (max-width: 1080px) and (min-width: 1023px) {
+    #footer-item1{
+        width: 28%;
+    }
+    #footer-item2{
+        width: 17%;
+    }
+    #footer-item3{
+        width: 14%;
+    }
+    #footer-item4{
+        width: 23.5%;
+    }
+}
+
+@media all and (max-width: 1022px) and (min-width: 900px) {
+    #footer-item1{
+        width: 70%;
+        margin-left: 45%;
+    }
+    #footer-item2{
+        margin-left: 20%;
+        width: 40%;
+    }
+    #footer-item3{
+        width: 40%;
+        margin-left: 45%;
+    }
+    #footer-item4{
+        margin-left: 20%;
+        width: 40%;
     }
     #footer-menu{
-        margin: 0px;
-        padding: 15px 0px;
-        padding-top: 7px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
-    #footer-text{
-        margin: 0px;
-        padding: 15px 0px;
-        padding-bottom: 7px;
+}
+
+@media all and (max-width: 900px) and (min-width: 712px) {
+    #footer-item1{
+        width: 80%;
+        margin-left: 35%;
+    }
+    #footer-item2{
+        margin-left: 20%;
+        width: 48%;
+    }
+    #footer-item3{
+        width: 40%;
+        margin-left: 35%;
+    }
+    #footer-item4{
+        margin-left: 20%;
+        width: 48%;
+    }
+    #footer-menu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 711px) and (min-width: 590px) {
+    #footer-item1{
+        width: 60%;
+        height: 200px;
+    }
+    #footer-item2{
+        width: 60%;
+        height: 160px;
+    }
+    #footer-item3{
+        width: 60%;
+        height: 150px;
+    }
+    #footer-item4{
+        width: 60%;
+        height: 170px;
+    }
+    #footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 20px 0px;
+        gap: 2px;
+    }
+}
+
+@media all and (max-width: 589px) and (min-width: 501px) {
+    #footer-item1{
+        width: 70%;
+        height: 220px;
+    }
+    #footer-item2{
+        width: 70%;
+        height: 160px;
+    }
+    #footer-item3{
+        width: 70%;
+        height: 150px;
+    }
+    #footer-item4{
+        width: 70%;
+        height: 170px;
+    }
+    #footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 20px 0px;
+        gap: 2px;
+    }
+}
+
+@media all and (max-width: 500px) and (min-width: 381px) {
+    #footer-item1{
+        width: 80%;
+        height: 230px;
+    }
+    #footer-item2{
+        width: 80%;
+        height: 160px;
+    }
+    #footer-item3{
+        width: 80%;
+        height: 150px;
+    }
+    #footer-item4{
+        width: 80%;
+        height: 170px;
+    }
+    #footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 20px 0px;
+        gap: 2px;
+    }
+}
+
+@media all and (max-width: 380px) and (min-width: 100px) {
+    #footer-item1{
+        width: 80%;
+        min-height: 260px;
+        max-height: 300px;
+    }
+    #footer-item2{
+        width: 80%;
+        height: 160px;
+    }
+    #footer-item3{
+        width: 80%;
+        height: 150px;
+    }
+    #footer-item4{
+        width: 80%;
+        height: 170px;
+    }
+    #footer-menu{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 20px 0px;
+        gap: 2px;
+    }
+}
+
+@media all and (max-width: 590px){
+    #copyright{
+        font-size: 13px;
     }
 }
 
@@ -320,7 +541,7 @@ body{
     }
 }
 
-@media all and (max-width: 619px) and (min-width: 481px) {
+@media all and (max-width: 619px) and (min-width: 501px) {
     #posts-cont{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -328,23 +549,23 @@ body{
 }
 
 @media all and (max-width: 900px) and (min-width: 816px) {
-    #footer-menu{
-        margin-right: 50px;
-    }
-    #footer-text{
-        margin-left: 50px;
-    }
-
+    
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 830px) {
 
     #head-btn{
         margin-right: 10px;
     }
 }
 
-@media all and (max-width: 767px) and (min-width: 480px){
+@media all and (max-width: 800px) and (min-width: 501px){
+    .logo{
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 500px){
     #hero-section{
         padding: 80px 3px;
     }

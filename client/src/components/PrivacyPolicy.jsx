@@ -4,6 +4,8 @@ import Title from "./Title";
 import ListItems from "./ListItems";
 
 export default function PrivacyPolicy() {
+  const updatedDate = " September 30, 2024";
+
   return (
     <section className="min-h-[800px] w-full text-white py-10 pb-20">
       <Title text="Privacy Policy - ImaginAIry" />
@@ -12,18 +14,31 @@ export default function PrivacyPolicy() {
         id="AC-container"
         className=" border rounded-lg border-zinc-500 mt-8 text-left inter w-[70%] mx-auto py-10"
       >
-        <p className=" px-20 text-sm text-gray-500">
-          Last updated: September 29, 2024
+        <p id="para" className="px-20 text-sm text-gray-500">
+          Last updated:{updatedDate}
         </p>
         <br />
         <Paragraphs text="This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You." />
         <Paragraphs text="We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy." />
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-5 pb-2">
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-5 pb-2"
+        >
           Interpretation and Definitions
         </h2>
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">Interpretation</h3>
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
+          Interpretation
+        </h3>
         <Paragraphs text="The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural." />
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">Definitions</h3>
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
+          Definitions
+        </h3>
         <Paragraphs text="For the purposes of this Privacy Policy:" />
         <ul id="paralist" className="px-20 text-lg mt-5 flex flex-col gap-4">
           <ListItems
@@ -82,20 +97,30 @@ export default function PrivacyPolicy() {
             text="means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
           />
         </ul>
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-6 pb-1">
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-6 pb-1"
+        >
           Collecting and Using Your Personal Data
         </h2>
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Types of Data Collected
         </h3>
-        <h4 id="para" className="text-lg font-bold px-20 py-3">Personal Data</h4>
+        <h4 id="para" className="text-lg font-bold px-20 py-3">
+          Personal Data
+        </h4>
         <Paragraphs text="While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:" />
         <ul id="paralist" className="px-20 text-lg mb-5 flex flex-col gap-1">
           <ListItems text="First name and last name" />
 
           <ListItems text="Usage Data" />
         </ul>
-        <h4 id="para" className="text-lg font-bold px-20 py-3">Usage Data</h4>
+        <h4 id="para" className="text-lg font-bold px-20 py-3">
+          Usage Data
+        </h4>
         <Paragraphs text="Usage Data is collected automatically when using the Service." />
         <Paragraphs text="Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data." />
         <Paragraphs text="When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data." />
@@ -166,7 +191,10 @@ export default function PrivacyPolicy() {
           </p>
         </ul>
         <Paragraphs text="For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy." />
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Use of Your Personal Data
         </h3>
         <Paragraphs text="The Company may use Personal Data for the following purposes:" />
@@ -244,30 +272,46 @@ export default function PrivacyPolicy() {
             text="We may disclose Your personal information for any other purpose with Your consent."
           />
         </ul>
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Retention of Your Personal Data
         </h3>
         <Paragraphs text="The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies." />
         <Paragraphs text="The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods." />
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Transfer of Your Personal Data
         </h3>
         <Paragraphs text="Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction." />
         <Paragraphs text="Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer." />
         <Paragraphs text="The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information." />
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Delete Your Personal Data
         </h3>
         <Paragraphs text="You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You." />
         <Paragraphs text="Our Service may give You the ability to delete certain information about You from within the Service." />
         <Paragraphs text="You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us." />
         <Paragraphs text="Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so." />
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Disclosure of Your Personal Data
         </h3>
-        <h4 id="para" className="text-lg font-bold px-20 py-3">Business Transactions</h4>
+        <h4 id="para" className="text-lg font-bold px-20 py-3">
+          Business Transactions
+        </h4>
         <Paragraphs text="If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy." />
-        <h4 id="para" className="text-lg font-bold px-20 py-3">Law enforcement</h4>
+        <h4 id="para" className="text-lg font-bold px-20 py-3">
+          Law enforcement
+        </h4>
         <Paragraphs text="Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency)." />
         <h4 id="para" className="text-lg font-bold px-20 py-3">
           Other legal requirements
@@ -280,38 +324,51 @@ export default function PrivacyPolicy() {
           <ListItems text="Protect the personal safety of Users of the Service or the public" />
           <ListItems text="Protect against legal liability" />
         </ul>
-        <h3 id="para" className="underline underline-offset-2 text-xl font-bold px-20 py-3">
+        <h3
+          id="para"
+          className="underline underline-offset-2 h text-xl font-bold px-20 py-3"
+        >
           Security of Your Personal Data
         </h3>
-        <Paragraphs
-          text="The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
-        />
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-5 pb-2">Children's Privacy</h2>
-        <Paragraphs
-          text="Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers."
-        />
+        <Paragraphs text="The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security." />
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-5 pb-2"
+        >
+          Children's Privacy
+        </h2>
+        <Paragraphs text="Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers." />
         <Paragraphs text="If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information." />
 
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-5 pb-2">
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-5 pb-2"
+        >
           Links to Other Websites
         </h2>
-        <Paragraphs
-          text="Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit."
-        />
-        <Paragraphs
-          text="We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
-        />
+        <Paragraphs text="Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit." />
+        <Paragraphs text="We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services." />
 
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-5 pb-2">
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-5 pb-2"
+        >
           Changes to this Privacy Policy
         </h2>
-        <Paragraphs
-          text="We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page."
-        />
+        <Paragraphs text="We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page." />
         <Paragraphs text='We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.' />
         <Paragraphs text="You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page." />
-        <h2 id="para" className="text-yellow-600 text-2xl font-bold px-20 pt-5 pb-2">Contact Us</h2>
-        <Paragraphs text="If you have any questions about this Privacy Policy, You can contact us using the" linkText="Contact Page." link="https://imaginairy.site/contact/" />
+        <h2
+          id="para"
+          className="text-yellow-600 h text-2xl font-bold px-20 pt-5 pb-2"
+        >
+          Contact Us
+        </h2>
+        <Paragraphs
+          text="If you have any questions about this Privacy Policy, You can contact us using the"
+          linkText="Contact Page."
+          link="https://imaginairy.site/contact/"
+        />
       </div>
     </section>
   );

@@ -49,7 +49,7 @@ export default function SampleImages() {
     }, [post, search]);
 
     return(
-        <section className="bg-white w-full pb-[50px]">
+        <section className="bg-white w-full pb-[50px] min-h-[460px]">
 
             <div>
                 <h1 id="sample-heading" className=" inter tracking-wide text-center pt-[50px] font-extrabold text-5xl text-slate-950">Check Out Some Generated Images</h1>

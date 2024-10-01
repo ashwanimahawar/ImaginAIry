@@ -9,6 +9,7 @@ import FeaturesSection from "./FeaturesSection";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import PrivacyPolicy from "./PrivacyPolicy";
+import Terms from "./Terms";
 
 export default function App() {
   const location = useLocation();
@@ -36,6 +37,7 @@ export default function App() {
         <Route path="/about" element={<AboutUs />} exact />
         <Route path="/contact" element={<ContactUs />} exact />
         <Route path="/privacy" element={<PrivacyPolicy />} exact />
+        <Route path="/terms" element={<Terms />} exact />
       </Routes>
       {(path === "" || path === "about" || path === "contact") && (
         <FeaturesSection />

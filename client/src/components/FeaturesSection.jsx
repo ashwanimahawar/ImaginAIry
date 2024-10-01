@@ -6,9 +6,9 @@ import AddPhotoAlternateRoundedIcon from '@mui/icons-material/AddPhotoAlternateR
 
 export default function FeaturesSection() {
     return(
-        <section id="features-section" className="inter py-20 bg-neutral-900">
+        <section id="features-section" className="inter py-20 bg-slate-950">
           <div id="feat" className="w-[80%] mx-auto px-4">
-            <h2 className="text-6xl font-bold text-center text-red-600 mb-12">Features</h2>
+            <h2 className="text-6xl font-bold text-center text-white mb-12">Features</h2>
             <div id="features" className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <FeatureCard 
                 icon={<div className="text-[70px]"><ImageRoundedIcon fontSize="inherit" /></div>}
