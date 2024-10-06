@@ -34,6 +34,7 @@ export default function App() {
 
   const enableAnalytics = () => {
     const analyticsID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
+    console.log(analyticsID);
     // Load Google Analytics script dynamically after consent
     const gaScript = document.createElement("script");
     gaScript.type = "text/javascript";
