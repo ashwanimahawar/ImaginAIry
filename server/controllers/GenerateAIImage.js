@@ -1,14 +1,14 @@
 import * as dotenv from "dotenv";
 import { createError } from "../error.js";
-import {OpenAIApi, Configuration} from "openai";
+import OpenAI from "openai";
 
 dotenv.config();
 
 //Setup OpenAI Api Key
-const configuration = new Configuration({
+const configuration = {
     apiKey : process.env.OPENAI_API_KEY,
-});
-const openai = new OpenAIApi(configuration);
+};
+const openai = new OpenAI(configuration);
 
 //Controller to generate Image
 
