@@ -1,14 +1,14 @@
 import * as dotenv from "dotenv";
 import { createError } from "../error.js";
-import OpenAI from "openai";
+import {OpenAIApi, Configuration} from "openai";
 
 dotenv.config();
 
 //Setup OpenAI Api Key
-const configuration = {
+const configuration = new Configuration({
     apiKey : process.env.OPENAI_API_KEY,
-};
-const openai = new OpenAI(configuration);
+});
+const openai = new OpenAIApi(configuration);
 
 //Controller to generate Image
 
@@ -16,7 +16,7 @@ export const generateImage = async (req, res, next) => {
     try {
         const { prompt } = req.body;
 
-        const response = await openai.images.generate({
+        const response = await openai.createImage({
             prompt,
             n: 1,
             size: "1024x1024",
