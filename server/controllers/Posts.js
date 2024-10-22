@@ -11,7 +11,7 @@ cloudinary.config({
     api_secret: process.env.API_SECRET,
 });
 
-//Get All Posts Router
+//Get All Posts Controller
 
 export const getAllPosts = async (req, res, next) => {
     try {
@@ -27,8 +27,7 @@ export const getAllPosts = async (req, res, next) => {
     }
 };
 
-//Create Post Router
-
+//Create Post Controller
 export const createPost = async (req, res, next) => {
     try {
         const {author, prompt, imgSrc} = req.body;
