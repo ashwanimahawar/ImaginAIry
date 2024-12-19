@@ -22,7 +22,7 @@ To run ImaginAIry locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ImaginAIry.git
+   git clone https://github.com/ashwanimahawar/ImaginAIry.git
    ```
 
 2. Navigate to the project directory:
@@ -50,19 +50,24 @@ To run ImaginAIry locally, follow these steps:
 
    Replace `your-mongodb-uri`, `your-openai-api-key`, `your-cloudinary-cloud-name`, `your-cloudinary-api-key`, and `your-cloudinary-api-secret` with your actual credentials.
 
-5. Run the development server:
+5. Create a `.env` file in the `clieht` folder and add the following environment variables:
+
+   ```bash
+   REACT_APP_SERVER_URL=http://localhost:5000/api
+   ```
+6. Run the development server:
    ```bash
    cd server
    npm start
    ```
 
-6. In another terminal window, run the client:
+7. In another terminal window, run the client:
    ```bash
    cd client
    npm start
    ```
 
-7. Open your browser and go to `http://localhost:3000` to use the application.
+8. Open your browser and go to `http://localhost:3000` to use the application.
 
 ## Usage
 
@@ -74,7 +79,7 @@ Once you have the project running:
 
 ## Live Project
 
-The project is currently not hosted, but it will be available soon.
+The project is currently deployed, you can access it through [https://imaginairy.site](https://imaginairy.site)
 
 ## Contributing
 
