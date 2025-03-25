@@ -32,7 +32,7 @@ export default function CreatePost() {
         setImageLoading(false);
       })
       .catch((error) => {
-        setError(error?.response?.data?.message);
+        setError(error?.response?.data?.errorMessage);
         setImageLoading(false);
       });
   };
@@ -88,7 +88,10 @@ export default function CreatePost() {
             <textarea
               id="prompt"
               value={post.prompt}
-              onChange={(e) => setPost({ ...post, prompt: e.target.value })}
+              onChange={(e) => {
+                setPost({ ...post, prompt: e.target.value });
+                setError("");
+              }}
               rows="8"
               type="textarea"
               className="focus:outline-none border-[0.5px] border-slate-700 rounded-lg flex-1 bg-transparent my-2 text-white px-4 py-3 roboto"
